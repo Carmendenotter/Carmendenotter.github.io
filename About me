@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Over Mij - Wireframe</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background: #F5E9DA; text-align:center; padding: 2rem 1rem; }
+    header h1 { margin:0; font-size:2rem; }
+    header p { margin-top:0.5rem; color: #555; }
+
+    /* Interactive Koffer */
+    .koffer-section { text-align:center; padding:4rem 1rem; background: #FFF; }
+    .koffer { width:200px; height:auto; cursor:pointer; }
+    .illustraties { display:none; margin-top:2rem; }
+    .illustraties img { width:80px; margin:0 0.5rem; }
+
+    /* Bio & Data */
+    .bio-section, .skills-section, .contact-section { max-width:800px; margin: auto; padding:3rem 1rem; }
+    .skills-table { width:100%; border-collapse: collapse; }
+    .skills-table th, .skills-table td { padding:0.5rem; border-bottom:1px solid #ddd; text-align:left; }
+    .contact-buttons a { display:inline-block; margin:0.5rem; padding:0.75rem 1.5rem; text-decoration:none; background:#A2B29F; color:white; border-radius:4px; }
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <header>
+    <img src="placeholder-zon.png" alt="Zon" style="width:100px;margin-bottom:1rem;">
+    <h1>Hoi, ik ben [Jouw Naam]</h1>
+    <p>Illustrator & Datavisualisator</p>
+  </header>
+
+  <!-- Interactieve "What's in My Bag?" -->
+  <section class="koffer-section">
+    <h2>Wat zit er in mijn koffer?</h2>
+    <img src="placeholder-koffer.png" alt="Koffer" class="koffer" onclick="toggleIllus()">
+    <div class="illustraties" id="illus">
+      <img src="placeholder-zon.png" alt="Zon">
+      <img src="placeholder-palm.png" alt="Palmboom">
+      <img src="placeholder-kaas.png" alt="Kaas">
+      <img src="placeholder-vis.png" alt="Vis">
+    </div>
+    <script>
+      function toggleIllus() {
+        const box = document.getElementById('illus');
+        box.style.display = box.style.display === 'flex' ? 'none' : 'flex';
+      }
+    </script>
+  </section>
+
+  <!-- Bio & Datavisualisatie -->
+  <section class="bio-section">
+    <h2>Over Mij</h2>
+    <p>Ik ben een derdejaars grafisch ontwerper gespecialiseerd in lijnillustraties en data-visualisatie. Mijn unieke mix van creativiteit en analytisch denken zorgt voor frisse, betekenisvolle ontwerpen.</p>
+    <!-- Placeholder voor mini-grafiek -->
+    <img src="placeholder-grafiek.png" alt="Grafiek" style="width:100%; max-width:400px; margin-top:1rem;">
+  </section>
+
+  <!-- Skills & Certificates -->
+  <section class="skills-section">
+    <h2>Skills</h2>
+    <table class="skills-table">
+      <thead>
+        <tr><th>Software</th><th>Niveau</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Adobe Illustrator</td><td>★★★★☆</td></tr>
+        <tr><td>Figma</td><td>★★★★☆</td></tr>
+        <tr><td>After Effects</td><td>★★★☆☆</td></tr>
+      </tbody>
+    </table>
+    <p><a href="cv.pdf" style="color:#A2B29F;">Download mijn volledige CV</a></p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section">
+    <h2>Let's Connect!</h2>
+    <div class="contact-buttons">
+      <a href="mailto:naam@example.com">E-mail</a>
+      <a href="https://linkedin.com/in/jouwprofiel" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+</body>
+</html>
