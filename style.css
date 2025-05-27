@@ -1,0 +1,563 @@
+.about-me-desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-me-desktop .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 4450px;
+}
+
+.about-me-desktop .overlap {
+  position: relative;
+  width: 1510px;
+  height: 4758px;
+  top: -52px;
+  left: -35px;
+}
+
+.about-me-desktop .achtergrond-f {
+  position: absolute;
+  width: 1510px;
+  height: 4758px;
+  top: 0;
+  left: 0;
+}
+
+.about-me-desktop .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 4450px;
+  top: 52px;
+  left: 35px;
+}
+
+.about-me-desktop .vector {
+  position: absolute;
+  width: 1440px;
+  height: 583px;
+  top: 3867px;
+  left: 0;
+}
+
+.about-me-desktop .img {
+  position: absolute;
+  width: 1440px;
+  height: 1959px;
+  top: 2168px;
+  left: 0;
+}
+
+.about-me-desktop .vector-2 {
+  position: absolute;
+  width: 1440px;
+  height: 764px;
+  top: 1572px;
+  left: 0;
+}
+
+.about-me-desktop .vector-3 {
+  position: absolute;
+  width: 1440px;
+  height: 1280px;
+  top: 593px;
+  left: 0;
+}
+
+.about-me-desktop .vector-4 {
+  position: absolute;
+  width: 1440px;
+  height: 736px;
+  top: 0;
+  left: 0;
+}
+
+.about-me-desktop .vector-5 {
+  position: absolute;
+  width: 1440px;
+  height: 533px;
+  top: 0;
+  left: 0;
+}
+
+.about-me-desktop .vector-6 {
+  position: absolute;
+  width: 1440px;
+  height: 417px;
+  top: 0;
+  left: 0;
+}
+
+.about-me-desktop .contact-me {
+  position: absolute;
+  width: 287px;
+  height: 71px;
+  top: 1619px;
+  left: 120px;
+  background-color: #ce4257;
+  border-radius: 75px;
+  overflow: hidden;
+}
+
+.about-me-desktop .text-wrapper {
+  width: 227px;
+  height: 32px;
+  top: 19px;
+  left: 30px;
+  color: #f3a795;
+  font-size: 40px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .carmen-den-otter {
+  position: absolute;
+  width: 438px;
+  top: 4239px;
+  left: 229px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 63px;
+}
+
+.about-me-desktop .div {
+  position: absolute;
+  width: 438px;
+  top: 4226px;
+  left: 902px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 63px;
+  white-space: nowrap;
+}
+
+.about-me-desktop .text-wrapper-2 {
+  position: absolute;
+  width: 438px;
+  top: 4320px;
+  left: 902px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 63px;
+  white-space: nowrap;
+}
+
+.about-me-desktop .hero {
+  position: absolute;
+  width: 1440px;
+  height: 768px;
+  top: 116px;
+  left: 51px;
+}
+
+.about-me-desktop .hero-2 {
+  position: relative;
+  width: 630px;
+  height: 77px;
+  top: 108px;
+  left: 405px;
+}
+
+.about-me-desktop .p {
+  position: absolute;
+  width: 630px;
+  top: -1px;
+  left: 0;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-me-desktop .text-wrapper-3 {
+  position: absolute;
+  width: 297px;
+  top: 52px;
+  left: 146px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-me-desktop .bio-vorm {
+  position: absolute;
+  width: 911px;
+  height: 900px;
+  top: 822px;
+  left: 564px;
+}
+
+.about-me-desktop .text-wrapper-4 {
+  position: absolute;
+  width: 630px;
+  top: 852px;
+  left: 160px;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .i-m-carmen-den-otter {
+  position: absolute;
+  width: 612px;
+  top: 957px;
+  left: 160px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .avatar {
+  position: absolute;
+  width: 561px;
+  height: 561px;
+  top: 969px;
+  left: 825px;
+}
+
+.about-me-desktop .tools-skills {
+  position: absolute;
+  width: 630px;
+  top: 1954px;
+  left: 160px;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .adobe-illustrator {
+  left: 240px;
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 2075px;
+}
+
+.about-me-desktop .adobe-photoshop {
+  left: 444px;
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 2075px;
+}
+
+.about-me-desktop .adobe-indesign {
+  left: 648px;
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 2075px;
+}
+
+.about-me-desktop .adobe-after-effects {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 2075px;
+  left: 852px;
+}
+
+.about-me-desktop .figma {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 2075px;
+  left: 1056px;
+}
+
+.about-me-desktop .text-wrapper-5 {
+  position: absolute;
+  top: 2439px;
+  left: 514px;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .rectangle {
+  top: 2620px;
+  left: 360px;
+  position: absolute;
+  width: 395px;
+  height: 557px;
+  background-color: #a5a58dbf;
+  border-radius: 75px;
+}
+
+.about-me-desktop .rectangle-2 {
+  top: 2621px;
+  left: 795px;
+  position: absolute;
+  width: 395px;
+  height: 557px;
+  background-color: #a5a58dbf;
+  border-radius: 75px;
+}
+
+.about-me-desktop .palmboom {
+  position: absolute;
+  width: 381px;
+  height: 557px;
+  top: 2621px;
+  left: 795px;
+}
+
+.about-me-desktop .zon {
+  position: absolute;
+  width: 381px;
+  height: 557px;
+  top: 2621px;
+  left: 360px;
+}
+
+.about-me-desktop .rectangle-3 {
+  top: 3255px;
+  left: 147px;
+  position: absolute;
+  width: 395px;
+  height: 557px;
+  background-color: #a5a58dbf;
+  border-radius: 75px;
+}
+
+.about-me-desktop .vis {
+  position: absolute;
+  width: 381px;
+  height: 557px;
+  top: 3255px;
+  left: 147px;
+}
+
+.about-me-desktop .rectangle-4 {
+  top: 3257px;
+  left: 572px;
+  position: absolute;
+  width: 395px;
+  height: 557px;
+  background-color: #a5a58dbf;
+  border-radius: 75px;
+}
+
+.about-me-desktop .koffer {
+  position: absolute;
+  width: 381px;
+  height: 557px;
+  top: 3257px;
+  left: 572px;
+}
+
+.about-me-desktop .rectangle-5 {
+  top: 3257px;
+  left: 997px;
+  position: absolute;
+  width: 395px;
+  height: 557px;
+  background-color: #a5a58dbf;
+  border-radius: 75px;
+}
+
+.about-me-desktop .kaas {
+  position: absolute;
+  width: 381px;
+  height: 557px;
+  top: 3257px;
+  left: 997px;
+}
+
+.about-me-desktop .vector-7 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 3495px;
+  left: 1048px;
+  object-fit: cover;
+}
+
+.about-me-desktop .vector-8 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 4308px;
+  left: 754px;
+  object-fit: cover;
+}
+
+.about-me-desktop .text-wrapper-6 {
+  position: absolute;
+  width: 93px;
+  height: 33px;
+  top: 82px;
+  left: 199px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .text-wrapper-7 {
+  position: absolute;
+  width: 144px;
+  height: 33px;
+  top: 82px;
+  left: 325px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .tools-skills-2 {
+  position: absolute;
+  width: 191px;
+  height: 33px;
+  top: 80px;
+  left: 502px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .text-wrapper-8 {
+  position: absolute;
+  width: 191px;
+  height: 33px;
+  top: 80px;
+  left: 1129px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .text-wrapper-9 {
+  position: absolute;
+  width: 370px;
+  height: 33px;
+  top: 82px;
+  left: 726px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .text-wrapper-10 {
+  top: 4189px;
+  left: 159px;
+  color: #000000;
+  font-size: 48px;
+  position: absolute;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .text-wrapper-11 {
+  position: absolute;
+  top: 4189px;
+  left: 868px;
+  font-family: "Abril Fatface-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me-desktop .person {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 4283px;
+  left: 163px;
+}
+
+.about-me-desktop .email {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 4356px;
+  left: 167px;
+}
+
+.about-me-desktop .phone {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 4422px;
+  left: 167px;
+}
+
+.about-me-desktop .instagram {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  top: 4283px;
+  left: 865px;
+}
+
+.about-me-desktop .tik-tok {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 4373px;
+  left: 863px;
+}
